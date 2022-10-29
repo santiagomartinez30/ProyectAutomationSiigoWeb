@@ -6,7 +6,7 @@ Característica: compras
   Para comprar articulos de mi interes
 
   Escenario: Realizar compra de articulo con garantia extendida
-    Dado que el usuario ingresa a la plataforma ecommerce de falabella
-    Cuando realizar la consulta de un producto de sus interes
-    Entonces el puede realizar la compra del producto
+    Dado que un usuario ingresa a la plataforma ecommerce de falabella
+    Cuando selecciona una consola de sus interes
+    Entonces el puede realizar la compra del articulo
 
