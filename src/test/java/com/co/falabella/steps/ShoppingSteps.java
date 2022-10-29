@@ -20,7 +20,7 @@ public class ShoppingSteps {
         );
     }
 
-    @Cuando("selecciona una {word} de sus interes")
+    @Cuando("selecciona una {word} de sus interés")
     public void makeQueryAndSelectArticleOfYourInterest(String dataArticle) {
         article = of(dataArticle);
         theActorInTheSpotlight().attemptsTo(
